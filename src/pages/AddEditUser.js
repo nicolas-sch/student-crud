@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FormInput, Loader } from "semantic-ui-react"
+import { Loader } from "semantic-ui-react"
 import { storage, db } from "../firebase";
 import { useParams, useNavigate } from 'react-router-dom';
 import { getDownloadURL, ref, uploadBytesResumable } from 'firebase/storage';

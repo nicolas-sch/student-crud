@@ -5,7 +5,6 @@ import { collection, deleteDoc, doc, onSnapshot } from 'firebase/firestore';
 
 const Home = () => {
     const [students, setStudents] = useState([]);
-    const [student, setStudent] = useState({});
     const [loading, setLoading] = useState(false);
     const navigate = useNavigate();
 
