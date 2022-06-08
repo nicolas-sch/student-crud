@@ -10,3 +10,8 @@ Install node modules
 
 - npm start
 Runs app in the development mode. Open http://localhost:3000 to view it in your browse.
+
+
+App public link:
+
+https://students-crud22.netlify.app/
