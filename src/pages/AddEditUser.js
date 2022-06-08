@@ -147,6 +147,7 @@ const AddEditUser = () => {
                                     name="number"
                                     onChange={handleChange}
                                     value={number}
+                                    type="number"
                                     className="form-input-complements"
                                 />
                                 <input
@@ -155,6 +156,7 @@ const AddEditUser = () => {
                                     name="complement"
                                     onChange={handleChange}
                                     value={complement}
+                                    type="number"
                                     className="form-input-complements"
                                 />
                             </div>
@@ -181,7 +183,7 @@ const AddEditUser = () => {
                                 type="file"
                                 onChange={(e) => setFile(e.target.files[0])}
                             />
-                            <button type="submit" disabled={progress !== null && progress < 100}>Submit</button>
+                            <button type="submit" disabled={progress !== null && progress < 100}>Adicionar</button>
                         </form>
                     </>
                 )}
