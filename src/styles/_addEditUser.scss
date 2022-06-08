@@ -1,0 +1,83 @@
+.teste {
+    background: #aacee9;
+    height: auto;
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 100px 0;
+        form {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            padding-top: 20px;
+            @media (max-width: 820px) {
+                width: 60%;
+            }
+            @media (max-width: 480px) {
+                width: 90%;
+            }
+            .form-input {
+                width: 98%;
+                background: #aacee9;
+                padding: 10px 0 10px 10px;
+                border: 2px solid rgb(72, 103, 241);
+                border-radius: 10px;
+            }
+            .address-complements {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 16px;
+                .form-input-complements {
+                    width: 50%;
+                    background: #aacee9;
+                    padding: 10px 0 10px 10px;
+                    border: 2px solid rgb(72, 103, 241);
+                    border-radius: 10px;
+                }
+            }
+            input[type="file"] {
+                width: 45%;
+                background: #aacee9;
+                color: black;
+                padding: 10px 0 10px 10px;
+                border-radius: 10px;
+                border: 2px solid rgb(72, 103, 241);
+                @media (max-width: 820px) {
+                    width: 60%;
+                }
+                @media (max-width: 480px) {
+                    width: 95%;
+                }
+            }::-webkit-file-upload-button {
+                background: rgb(24, 188, 133);
+                border: none;
+                color: white;
+                padding: 0.7em;
+                margin-right: 16px;
+                border-radius: 20px;
+                cursor: pointer;
+              }
+            button {
+                width: 20%;
+                height: 48px;
+                background: rgb(169, 182, 240);
+                color: black;
+                font-size: 16px;
+                text-transform: uppercase;
+                border-radius: 10px;
+                cursor: pointer;
+                @media (max-width: 480px) {
+                    width: 100%;
+                }
+            }
+        }
+        
+    }
+}
+
